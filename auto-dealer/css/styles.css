@@ -114,6 +114,11 @@ html {
 }
 
 /* ------------- BODY ------------- */
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+}
+
 /* ------------- HEADER ------------- */
 header {
   background-color: #424264;
@@ -122,6 +127,11 @@ header {
 }
 header h1 {
   font-size: 2rem;
+  font-weight: 300;
+}
+header h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
 }
 
 /* ------------- FOOTER ------------- */

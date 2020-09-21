@@ -5,6 +5,10 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
 /* ------------- BODY ------------- */
+body {
+    font-family: $defaultFont;
+    font-weight: $normalWeight;
+}
 
 /* ------------- HEADER ------------- */
 header {
@@ -14,6 +18,11 @@ header {
 
     h1 {
         font-size: 2rem;
+        font-weight: $normalWeight;
+    }
+    h2 {
+        font-size: 1.5rem;
+        font-weight: $boldWeight;
     }
 }
 
