@@ -223,6 +223,20 @@ footer p a {
   }
 }
 @media only screen and (min-width: 1140px) {
+  nav ul {
+    margin-left: 2%;
+    border-left: 1px solid rgba(0, 0, 0, 0.3);
+  }
+  nav ul li {
+    width: auto;
+  }
+  nav ul li:last-child {
+    border-right: 1px solid rgba(0, 0, 0, 0.3);
+  }
+  nav ul li a {
+    padding: 0.5rem 1rem;
+  }
+
   main figure.photo {
     width: 21%;
     float: left;
