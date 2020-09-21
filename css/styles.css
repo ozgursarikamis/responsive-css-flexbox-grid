@@ -150,6 +150,14 @@ body {
   background-color: orange;
 }
 
+h1 {
+  color: #857493;
+}
+
+footer {
+  color: #857493;
+}
+
 @media only screen and (min-width: 560px) {
   body {
     background-color: azure;

@@ -12,4 +12,8 @@ html {
     box-sizing: border-box;
 }
 
-    body { background-color: orange; }
+body { background-color: orange; }
+
+h1 { color: $primaryColor; }
+
+footer { color: $primaryColor }
