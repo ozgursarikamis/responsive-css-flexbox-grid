@@ -49,6 +49,10 @@ nav {
         transition: background 0.75s ease, color 0.75s ease;
     }
 
+    ul li.active a {
+        background-color: darken($secondaryColor, 10);
+    }
+
     ul li a:hover {
         color: $secondaryColor;
         background-color: $primaryColor;

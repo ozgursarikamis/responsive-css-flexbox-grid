@@ -156,6 +156,9 @@ nav ul li a {
   text-decoration: none;
   transition: background 0.75s ease, color 0.75s ease;
 }
+nav ul li.active a {
+  background-color: #9ea8b4;
+}
 nav ul li a:hover {
   color: #bbc2ca;
   background-color: #424264;
