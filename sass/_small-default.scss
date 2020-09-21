@@ -93,6 +93,13 @@ main {
 		margin: 1.5rem 0 .5rem 0;
 		color: $primaryColor;
 	} // end h1
+
+	ul li {
+		width: 50px;
+		height: 50px;
+		background-image: url(../images/SpritePractice.png);
+		background-position: 0 0;
+	}
 	
 	
     
