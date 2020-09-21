@@ -282,8 +282,9 @@ footer p a {
   }
 }
 @media only screen and (min-width: 60rem) {
-  body {
-    background-image: url(../images/polonez_car.png);
+  main {
+    max-width: 60rem;
+    margin: 0 auto;
   }
 
   div#wrapper {
