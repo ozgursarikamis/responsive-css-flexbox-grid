@@ -215,4 +215,12 @@ footer p a {
   color: #bbc2ca;
 }
 
+@media only screen and (min-width: 560px) {
+  main figure.photo {
+    width: 46%;
+    float: left;
+    margin: 0.5rem 2%;
+  }
+}
+
 /*# sourceMappingURL=styles.css.map */
