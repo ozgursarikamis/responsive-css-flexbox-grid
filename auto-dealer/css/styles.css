@@ -182,6 +182,17 @@ main figure.banner {
 main figure.banner img {
   width: 100%;
 }
+main figure.photo {
+  width: 96%;
+  margin: 0.5rem 2%;
+}
+main figure.photo img {
+  width: 100%;
+}
+main figure.photo figcaption {
+  text-align: center;
+  color: #424264;
+}
 main hr.fadeAway {
   background: linear-gradient(to right, #424e64 0%, rgba(66, 78, 100, 0.01) 100%);
   height: 2px;

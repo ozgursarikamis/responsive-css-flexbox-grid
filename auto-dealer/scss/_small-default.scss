@@ -76,6 +76,10 @@ main {
     figure.banner { width: 100%; }
     figure.banner img { width: 100%; }
 
+    figure.photo { width: 100%-$gutterDouble; margin: .5rem $gutter;}
+    figure.photo img { width: 100%; }
+    figure.photo figcaption { text-align: center; color: $primaryColor; }
+
     hr.fadeAway {
         background: linear-gradient(to right, rgba(66, 78, 100, 1) 0%, rgba(66, 78, 100, 0.01) 100%);
         height: 2px;
