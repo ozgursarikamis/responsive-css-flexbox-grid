@@ -18,15 +18,15 @@ header {
 
     form { float: right; }
     form input {
-        width: 6rem;
-        border-radius: 10px;
+        width: 12rem;
+        border-radius: 3px;
         margin-right: 2%;
         padding: .2rem;
         border: none;
         transition: width .5s
     }
 
-    form input:focus { width: 8rem; }
+    form input:focus { width: 16rem; }
 
     h1 {
         font-size: 2rem;
@@ -116,6 +116,21 @@ main {
     div.blog article {
         margin: .5rem $gutter;
         width: 100% - $gutterDouble;
+    }
+
+    div.pop {
+        background-color: $accent;
+        text-align: center;
+        clear: both;
+        padding: 1rem 0;
+        .title {font-size: 2.5rem;}
+        .subtitle {font-size: 2rem; font-weight: $boldWeight;}
+        .copy {padding: .5rem 0;}
+        .copy span {
+            font-size: 3rem; 
+            color: $primaryColor; 
+            font-weight: $boldWeight;
+        } // end span
     }
 }
 

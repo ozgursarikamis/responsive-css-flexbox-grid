@@ -129,15 +129,15 @@ header form {
   float: right;
 }
 header form input {
-  width: 6rem;
-  border-radius: 10px;
+  width: 12rem;
+  border-radius: 3px;
   margin-right: 2%;
   padding: 0.2rem;
   border: none;
   transition: width 0.5s;
 }
 header form input:focus {
-  width: 8rem;
+  width: 16rem;
 }
 header h1 {
   font-size: 2rem;
@@ -229,6 +229,27 @@ main hr.fadeAway {
 main div.blog article {
   margin: 0.5rem 2%;
   width: 96%;
+}
+main div.pop {
+  background-color: #f1c517;
+  text-align: center;
+  clear: both;
+  padding: 1rem 0;
+}
+main div.pop .title {
+  font-size: 2.5rem;
+}
+main div.pop .subtitle {
+  font-size: 2rem;
+  font-weight: 700;
+}
+main div.pop .copy {
+  padding: 0.5rem 0;
+}
+main div.pop .copy span {
+  font-size: 3rem;
+  color: #424264;
+  font-weight: 700;
 }
 
 /* ------------- FOOTER ------------- */
