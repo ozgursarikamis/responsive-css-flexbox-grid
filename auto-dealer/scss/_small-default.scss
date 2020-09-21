@@ -26,4 +26,22 @@ header {
     }
 }
 
-/* ------------- FOOTER ------------- */
+/* ------------- NAV ------------- */
+nav {
+    background-color: $secondaryColor;
+    border-bottom: 1px solid rgba($color: #000000, $alpha: 1.0);
+    ul li {
+        float: left;
+        width: 25%;
+        border-right: 1px solid rgba($color: #000000, $alpha: 0.3);
+    }
+    ul li:last-child {
+        border-right: none;
+    }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}

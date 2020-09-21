@@ -134,6 +134,24 @@ header h2 {
   font-weight: 700;
 }
 
-/* ------------- FOOTER ------------- */
+/* ------------- NAV ------------- */
+nav {
+  background-color: #bbc2ca;
+  border-bottom: 1px solid black;
+}
+nav ul li {
+  float: left;
+  width: 25%;
+  border-right: 1px solid rgba(0, 0, 0, 0.3);
+}
+nav ul li:last-child {
+  border-right: none;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
 /*# sourceMappingURL=styles.css.map */
