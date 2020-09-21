@@ -222,5 +222,12 @@ footer p a {
     margin: 0.5rem 2%;
   }
 }
+@media only screen and (min-width: 1140px) {
+  main figure.photo {
+    width: 21%;
+    float: left;
+    margin: 0.5rem 2%;
+  }
+}
 
 /*# sourceMappingURL=styles.css.map */
