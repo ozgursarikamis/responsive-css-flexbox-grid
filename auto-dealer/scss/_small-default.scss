@@ -64,3 +64,21 @@ nav {
   display: table;
   clear: both;
 }
+
+
+/* ------------- FOOTER ------------- */
+footer {
+    width: 100%;
+    background-color: $primaryColor;
+
+    p {
+        text-align: center;
+        color: $secondaryColor;
+        padding: .75rem 0;
+        font-size: .9rem;
+
+        a {
+            color: $secondaryColor;
+        }
+    }
+}
