@@ -247,6 +247,12 @@ footer p a {
   }
 }
 @media only screen and (min-width: 1140px) {
+  div#wrapper {
+    max-width: 80rem;
+    margin: 2rem auto;
+    box-shadow: 0 0 5px 0;
+  }
+
   nav ul {
     margin-left: 2%;
     border-left: 1px solid rgba(0, 0, 0, 0.3);
