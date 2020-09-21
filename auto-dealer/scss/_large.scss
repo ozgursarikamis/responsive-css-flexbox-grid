@@ -11,4 +11,10 @@ nav {
 
 main {
     figure.photo { width: 25%-$gutterDouble; float: left; margin: .5rem $gutter;}
+
+    div.blog article {
+        float: left;
+        width: 33.33% - $gutterDouble;
+    }
+    div.blog article:nth-child(2n + 1) { clear: none }
 }

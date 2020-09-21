@@ -266,6 +266,13 @@ footer p a {
     float: left;
     margin: 0.5rem 2%;
   }
+  main div.blog article {
+    float: left;
+    width: 29.33%;
+  }
+  main div.blog article:nth-child(2n+1) {
+    clear: none;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
