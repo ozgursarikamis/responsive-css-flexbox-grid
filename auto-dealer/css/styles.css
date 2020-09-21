@@ -188,6 +188,9 @@ nav ul li a:hover {
 }
 
 /* ------------- MAIN ------------- */
+main {
+  background-color: #fff;
+}
 main h1 {
   font-size: 2rem;
   margin: 1rem 0 0 2%;
@@ -256,6 +259,10 @@ main div.pop .copy span {
 }
 
 /* ------------- FOOTER ------------- */
+div#footerWrapper {
+  background-color: #66000a;
+}
+
 footer {
   width: 100%;
   background-color: #66000a;
@@ -288,6 +295,10 @@ footer p a {
   header, nav, main, footer {
     max-width: 60rem;
     margin: 0 auto;
+  }
+
+  body {
+    background: url(../images/G81KX7.jpg) no-repeat center top;
   }
 
   div#wrapper {

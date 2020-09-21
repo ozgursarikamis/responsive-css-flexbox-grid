@@ -81,6 +81,7 @@ nav {
 
 /* ------------- MAIN ------------- */
 main {
+    background-color: #fff;
     h1 {
         font-size: 2rem;
         margin: 1rem 0 0 $gutter;
@@ -137,6 +138,9 @@ main {
 }
 
 /* ------------- FOOTER ------------- */
+div#footerWrapper {
+    background-color: $primaryColor;
+}
 footer {
     width: 100%;
     background-color: $primaryColor;
