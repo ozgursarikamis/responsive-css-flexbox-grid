@@ -26,6 +26,8 @@ header {
         transition: width .5s
     }
 
+    form input:focus { width: 8rem; }
+
     h1 {
         font-size: 2rem;
         font-weight: $normalWeight;
