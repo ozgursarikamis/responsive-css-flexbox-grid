@@ -120,8 +120,11 @@ body {
 }
 
 /* ------------- HEADER ------------- */
-header {
+div#headerWrapper {
   background-color: #66000a;
+}
+
+header {
   color: #ccccb8;
   padding: 1rem 2%;
 }
@@ -282,7 +285,7 @@ footer p a {
   }
 }
 @media only screen and (min-width: 60rem) {
-  main {
+  header, nav, main, footer {
     max-width: 60rem;
     margin: 0 auto;
   }

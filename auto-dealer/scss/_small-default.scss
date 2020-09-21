@@ -11,8 +11,10 @@ body {
 }
 
 /* ------------- HEADER ------------- */
-header {
+div#headerWrapper {
     background-color: $primaryColor;
+}
+header {
     color: $secondaryColor;
     padding: 1rem $gutter;
 
