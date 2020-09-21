@@ -73,6 +73,20 @@ main {
         color: $primaryColor;
     }
 
+    h2 {
+        font-size: 1.5rem;
+        margin: .75rem 0 0 $gutter;
+        color: lighten($primaryColor, 10%);
+    }
+    h3 {
+        font-size: 1.2rem;
+        color: lighten($color: $primaryColor, $amount: 20%);
+    }
+    p {
+        line-height: 130%;
+        color: $fontColor;
+    }
+
     figure.banner { width: 100%; }
     figure.banner img { width: 100%; }
 
@@ -85,6 +99,11 @@ main {
         height: 2px;
         border: none;
         margin: 0 $gutter;
+    }
+
+    div.blog article {
+        margin: .5rem $gutter;
+        width: 100% - $gutterDouble;
     }
 }
 

@@ -1,3 +1,12 @@
 main {
     figure.photo { width: 50%-$gutterDouble; float: left; margin: .5rem $gutter;}
+
+    div.blog article {
+        float: left;
+        width: 50% - $gutterDouble;
+    }
+
+    div.blog article:nth-child(2n + 1) {
+        clear: left;
+    }
 }
