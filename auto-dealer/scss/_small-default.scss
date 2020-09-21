@@ -65,6 +65,17 @@ nav {
   clear: both;
 }
 
+/* ------------- MAIN ------------- */
+main {
+    h1 {
+        font-size: 2rem;
+        margin: 1rem 0 0 $gutter;
+        color: $primaryColor;
+    }
+
+    figure.banner { width: 100%; }
+    figure.banner img { width: 100%; }
+}
 
 /* ------------- FOOTER ------------- */
 footer {

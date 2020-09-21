@@ -170,6 +170,19 @@ nav ul li a:hover {
   clear: both;
 }
 
+/* ------------- MAIN ------------- */
+main h1 {
+  font-size: 2rem;
+  margin: 1rem 0 0 2%;
+  color: #424264;
+}
+main figure.banner {
+  width: 100%;
+}
+main figure.banner img {
+  width: 100%;
+}
+
 /* ------------- FOOTER ------------- */
 footer {
   width: 100%;
