@@ -154,6 +154,7 @@ nav ul li a {
   padding: 0.5rem 0;
   color: #424264;
   text-decoration: none;
+  transition: background 0.75s ease, color 0.75s ease;
 }
 nav ul li a:hover {
   color: #bbc2ca;
