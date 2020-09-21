@@ -16,6 +16,16 @@ header {
     color: $secondaryColor;
     padding: 1rem $gutter;
 
+    form { float: right; }
+    form input {
+        width: 6rem;
+        border-radius: 10px;
+        margin-right: 2%;
+        padding: .2rem;
+        border: none;
+        transition: width .5s
+    }
+
     h1 {
         font-size: 2rem;
         font-weight: $normalWeight;
