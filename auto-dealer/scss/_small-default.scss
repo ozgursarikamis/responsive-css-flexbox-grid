@@ -47,6 +47,11 @@ nav {
         color: $primaryColor;
         text-decoration: none;
     }
+
+    ul li a:hover {
+        color: $secondaryColor;
+        background-color: $primaryColor;
+    }
 }
 
 .clearfix:after {

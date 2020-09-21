@@ -155,6 +155,10 @@ nav ul li a {
   color: #424264;
   text-decoration: none;
 }
+nav ul li a:hover {
+  color: #bbc2ca;
+  background-color: #424264;
+}
 
 .clearfix:after {
   content: "";
