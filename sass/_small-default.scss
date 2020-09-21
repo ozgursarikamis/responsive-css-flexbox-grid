@@ -100,7 +100,11 @@ main {
 		background-image: url(../images/SpritePractice.png);
 		background-position: 0 0;
 	}
-	
+
+	ul li.blue { background-position: 0 -100px; }
+	ul li.bee { background-position: -50px -50px; }
+	ul li.one { background-position: -100px 0; }
+	ul li.one:hover { background-position: -100px -50px ;}
 	
     
     

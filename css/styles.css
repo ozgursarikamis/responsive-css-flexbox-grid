@@ -182,6 +182,18 @@ main ul li {
   background-image: url(../images/SpritePractice.png);
   background-position: 0 0;
 }
+main ul li.blue {
+  background-position: 0 -100px;
+}
+main ul li.bee {
+  background-position: -50px -50px;
+}
+main ul li.one {
+  background-position: -100px 0;
+}
+main ul li.one:hover {
+  background-position: -100px -50px;
+}
 
 /*  ------------- FOOTER -------------  */
 footer {
