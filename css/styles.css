@@ -135,6 +135,30 @@ header h2 {
   font-size: 1.12rem;
   font-weight: 300;
 }
+header ul.social li {
+  list-style: none;
+  float: left;
+  width: 25%;
+}
+header ul.social li a {
+  display: block;
+  margin: 0 auto;
+  background-image: url(../images/socialSprites.png);
+  height: 45px;
+  width: 45px;
+}
+header ul.social .twitter a {
+  background-position: -90px -45px;
+}
+header ul.social .youtube a {
+  background-position: -225px -45px;
+}
+header ul.social .facebook a {
+  background-position: -45px -45px;
+}
+header ul.social .googleplus a {
+  background-position: -180px -45px;
+}
 
 /*  ------------- NAV -------------  */
 nav {
@@ -176,10 +200,6 @@ main h1 {
   margin: 1.5rem 0 0.5rem 0;
   color: #302b27;
 }
-main .plum {
-  color: plum;
-  font-size: 8rem;
-}
 
 /*  ------------- FOOTER -------------  */
 footer {
@@ -206,9 +226,6 @@ footer p a {
 @media only screen and (min-width: 35em) {
   /*-----HEADER SOCIAL ICONS-----*/
   /*  ------------- MAIN -------------  */
-  main .purple {
-    color: purple;
-  }
 }
 @media only screen and (min-width: 64em) {
   /*  ------------- NAV -------------  */
@@ -229,9 +246,6 @@ footer p a {
   /*  ------------- MAIN -------------  */
   main {
     margin: auto;
-  }
-  main .orange {
-    color: orange;
   }
 }
 

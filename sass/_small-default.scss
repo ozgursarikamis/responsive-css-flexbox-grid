@@ -32,7 +32,22 @@ header {
 	
 /*-----HEADER SOCIAL ICONS-----*/
 	
-    
+    ul.social li {
+		list-style: none;
+		float: left;
+		width: 25%;
+	}
+	ul.social li a {
+		display: block;
+		margin: 0 auto;
+		background-image: url(../images/socialSprites.png);
+		height: 45px; width: 45px;
+	}
+
+	ul.social .twitter a { background-position: -90px -45px; }
+	ul.social .youtube a { background-position: -225px -45px; }
+	ul.social .facebook a { background-position: -45px -45px; }
+	ul.social .googleplus a { background-position: -180px -45px; }
     
     
     
@@ -93,8 +108,6 @@ main {
 		margin: 1.5rem 0 .5rem 0;
 		color: $primaryColor;
 	} // end h1
-
-	.plum { color: plum; font-size: 8rem; }
 	
     
     
