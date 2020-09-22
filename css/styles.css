@@ -141,35 +141,12 @@ header ul.social li {
   width: 25%;
 }
 header ul.social li a {
-  display: block;
-  margin: 0 auto;
-  background-image: url(../images/socialSprites.png);
-  height: 45px;
-  width: 45px;
+  font-size: 1.8rem;
+  padding-left: 0.5rem;
+  color: white;
 }
-header ul.social .twitter a {
-  background-position: -90px -45px;
-}
-header ul.social .youtube a {
-  background-position: -225px -45px;
-}
-header ul.social .facebook a {
-  background-position: -45px -45px;
-}
-header ul.social .googleplus a {
-  background-position: -180px -45px;
-}
-header ul.social .twitter a:hover {
-  background-position: -90px 0;
-}
-header ul.social .youtube a:hover {
-  background-position: -225px 0;
-}
-header ul.social .facebook a:hover {
-  background-position: -45px 0;
-}
-header ul.social .googleplus a:hover {
-  background-position: -180px 0;
+header ul.social li a:hover {
+  color: #baa256;
 }
 
 /*  ------------- NAV -------------  */
