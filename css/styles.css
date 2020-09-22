@@ -186,6 +186,10 @@ main div.parent {
   display: grid;
   grid-template-columns: 1fr;
 }
+main div.parent article:nth-child(1) {
+  grid-column: 1/span 2;
+  background-color: palegoldenrod;
+}
 
 /*  ------------- FOOTER -------------  */
 footer {

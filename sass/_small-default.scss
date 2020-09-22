@@ -104,7 +104,15 @@ main {
 		display: grid;
 		grid-template-columns: 1fr;
 	}
-    
+
+    div.parent article:nth-child(1){
+		 // If you’re placing items onto their parent grid with grid-column or grid-row, 
+		 // you can use the span keyword to avoid specifying end lines when items 
+		 // should span more than one column or row.
+
+		grid-column: 1 / span 2; // in column 1, it spans 2 columns
+		background-color: palegoldenrod;
+	}
     
     
     
