@@ -213,6 +213,9 @@ main h1 {
   margin: 1.5rem 0 0.5rem 0;
   color: #302b27;
 }
+main h2 {
+  padding-top: 1rem;
+}
 main .row {
   clear: both;
 }
