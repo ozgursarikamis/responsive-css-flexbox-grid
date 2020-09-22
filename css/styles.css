@@ -230,7 +230,17 @@ footer p a {
 }
 
 @media only screen and (min-width: 35em) {
+  div#wrapper {
+    grid-template-rows: 5rem auto 3rem;
+    grid-template-columns: 10rem auto 12rem;
+    grid-template-areas: "header header social" "links main main" "footer footer footer";
+  }
+
   /*  ------------- HAMBURGER -------------  */
+  .hamburger {
+    display: none;
+  }
+
   /*  ------------- NAV -------------  */
   nav {
     height: auto;
@@ -245,10 +255,20 @@ footer p a {
   }
 }
 @media only screen and (min-width: 64em) {
+  div#wrapper {
+    grid-template-rows: 5rem auto auto 3rem;
+    grid-auto-columns: auto 12rem;
+    grid-template-areas: "header social" "links links" "main main" "footer footer";
+  }
+
   /*  ------------- NAV -------------  */
   nav {
     height: auto;
     padding-left: 2%;
+  }
+  nav ul {
+    display: grid;
+    grid-template-columns: 9rem 9rem 9rem 9rem auto;
   }
   nav ul li {
     width: auto;
