@@ -182,18 +182,22 @@ main h2 {
   margin: 1.1rem 0 0.2rem 0;
   color: #685d55;
 }
-main div.parent {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  column-gap: 2%;
-  row-gap: 0.5rem;
+main div.teaser {
+  position: relative;
 }
-main div.parent article {
-  background-color: #eeeeee;
+main div.teaser span {
+  position: absolute;
+  display: block;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 100%;
+  padding: 0.3rem 2%;
+  color: #ffffff;
+  font-size: 1.5rem;
 }
-main div.parent article:nth-child(1) {
-  grid-column: 1/span 2;
-  background-color: palegoldenrod;
+main div img {
+  display: block;
+  width: 100%;
 }
 
 /*  ------------- FOOTER -------------  */
