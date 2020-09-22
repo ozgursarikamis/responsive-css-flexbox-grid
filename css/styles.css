@@ -159,6 +159,18 @@ header ul.social .facebook a {
 header ul.social .googleplus a {
   background-position: -180px -45px;
 }
+header ul.social .twitter a:hover {
+  background-position: -90px 0;
+}
+header ul.social .youtube a:hover {
+  background-position: -225px 0;
+}
+header ul.social .facebook a:hover {
+  background-position: -45px 0;
+}
+header ul.social .googleplus a:hover {
+  background-position: -180px 0;
+}
 
 /*  ------------- NAV -------------  */
 nav {
@@ -194,11 +206,62 @@ nav ul li a:hover {
 main {
   max-width: 60rem;
   min-height: 20rem;
+  /*  ------------- Column Layout -------------  */
 }
 main h1 {
   font-size: 2rem;
   margin: 1.5rem 0 0.5rem 0;
   color: #302b27;
+}
+main .row {
+  clear: both;
+}
+main .column {
+  padding: 0 2%;
+}
+main .small-1 {
+  width: 8.3333333333%;
+  float: left;
+}
+main .small-2 {
+  width: 16.6666666667%;
+  float: left;
+}
+main .small-3 {
+  width: 25%;
+  float: left;
+}
+main .small-4 {
+  width: 33.3333333333%;
+  float: left;
+}
+main .small-5 {
+  width: 41.6666666667%;
+  float: left;
+}
+main .small-6 {
+  width: 50%;
+  float: left;
+}
+main .small-7 {
+  width: 58.3333333333%;
+  float: left;
+}
+main .small-8 {
+  width: 66.6666666667%;
+  float: left;
+}
+main .small-9 {
+  width: 75%;
+  float: left;
+}
+main .small-10 {
+  width: 83.3333333333%;
+  float: left;
+}
+main .small-11 {
+  width: 91.6666666667%;
+  float: left;
 }
 
 /*  ------------- FOOTER -------------  */
@@ -225,6 +288,18 @@ footer p a {
 
 @media only screen and (min-width: 35em) {
   /*-----HEADER SOCIAL ICONS-----*/
+  header {
+    position: relative;
+  }
+  header ul.social {
+    position: absolute;
+    bottom: 0.5rem;
+    right: 2%;
+  }
+  header ul.social li {
+    width: auto;
+  }
+
   /*  ------------- MAIN -------------  */
 }
 @media only screen and (min-width: 64em) {

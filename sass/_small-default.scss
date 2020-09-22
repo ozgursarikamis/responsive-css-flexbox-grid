@@ -53,7 +53,7 @@ header {
 	ul.social .youtube a:hover { background-position: -225px 0; }
 	ul.social .facebook a:hover { background-position: -45px 0; }
 	ul.social .googleplus a:hover { background-position: -180px 0; }
-	    
+
     
     
     
@@ -114,8 +114,14 @@ main {
 		color: $primaryColor;
 	} // end h1
 	
-    
-    
+		/*  ------------- Column Layout -------------  */
+	.row { clear: both }
+	.column { padding: 0 $gutter; }
+
+	@for $i from 1 to 12 {
+		$w: ($i / 12) * 100%;
+		.small-#{$i} { width: $w; float: left; }
+	}
     
     
     
