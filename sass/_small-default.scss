@@ -102,8 +102,15 @@ main {
 	
     div.parent {
 		display: grid;
-		grid-template-columns: 1fr;
+		grid-template-columns: 1fr 1fr;
+		// grid-column-gap and grid-row-gap are deprecated. use column-gap and row-gap:
+		// grid-column-gap: 2%;
+		// grid-row-gap: .5rem;
+		column-gap: 2%;
+		row-gap: .5rem;
 	}
+
+	div.parent article { background-color: #eeeeee;}
 
     div.parent article:nth-child(1){
 		 // If you’re placing items onto their parent grid with grid-column or grid-row, 
