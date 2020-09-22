@@ -102,6 +102,14 @@ main {
 		flex-basis: 100%;
 		padding: 1rem $gutter;
 	}
+
+	div.container2 {
+		display: flex;
+		display: -ms-flexbox;
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+		flex-direction: row;
+	}
 	
     
     
