@@ -124,11 +124,14 @@ div#wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 3rem auto auto 3rem auto;
+  grid-template-areas: "hamburger social" "header header" "main main" "footer footer" "links links";
   background-color: #302b27;
 }
 
 /*  ------------- HAMBURGER -------------  */
 .hamburger {
+  grid-area: hamburger;
+  align-self: center;
   padding-left: 2%;
   font-size: 2rem;
 }
@@ -139,6 +142,10 @@ div#wrapper {
 
 /*  ------------- SOCIAL -------------  */
 div.social {
+  grid-area: social;
+  align-self: center;
+  justify-self: end;
+  align-self: center;
   padding-right: 2%;
 }
 div.social a {
@@ -152,6 +159,7 @@ div.social a:hover {
 
 /*  ------------- HEADER -------------  */
 header {
+  grid-area: header;
   color: #baa256;
   padding: 1rem 2%;
 }
@@ -166,6 +174,7 @@ header h2 {
 
 /*  ------------- NAV -------------  */
 nav {
+  grid-area: links;
   background-color: #baa256;
   height: 100vh;
 }
@@ -185,6 +194,7 @@ nav ul li a:hover {
 
 /*  ------------- MAIN -------------  */
 main {
+  grid-area: main;
   min-height: 300px;
   background-color: white;
 }
@@ -198,6 +208,10 @@ main h1 {
 }
 
 /*  ------------- FOOTER -------------  */
+footer {
+  grid-area: footer;
+  justify-self: center;
+}
 footer p {
   text-align: center;
   color: #baa256;
