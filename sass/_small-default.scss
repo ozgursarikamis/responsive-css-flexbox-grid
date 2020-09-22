@@ -102,7 +102,7 @@ main {
 	
     div.parent {
 		display: grid;
-		grid-template-columns: 250px auto;
+		grid-template-columns: 1fr 2fr 1fr;
 	}
     
     
