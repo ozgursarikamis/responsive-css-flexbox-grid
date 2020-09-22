@@ -116,6 +116,18 @@ main {
 		flex-wrap: wrap;
 		flex-direction: row;
 	}
+
+	div.container2 figure {
+		-ms-flex: 46%;
+		flex-basis: 50%;
+		padding: 1rem $gutter;
+		transition: transform 0.3s ease-in-out;
+	}
+	div.container2 figure img {
+		width: 100%;
+	}
+
+	div.container2 figure:hover { transform: scale(1.05);}
 	
     
     
