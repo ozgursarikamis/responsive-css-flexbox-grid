@@ -18,6 +18,10 @@ nav {
 /*  ------------- MAIN -------------  */
 main {
 
+    div.container1 div {
+        -ms-flex: 29.333%; // default value for IE
+        flex-basis: 33.333%;
+    }
     
     
 } // end main

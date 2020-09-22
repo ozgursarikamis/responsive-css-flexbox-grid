@@ -90,6 +90,18 @@ main {
 		line-height: 130%;
 	} // end p
 	
+	div.container1 {
+		display: -ms-flex;
+		display: flex;
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+	}
+
+	div.container div {
+		-ms-flexbasis: 100%; // default value for IE
+		flex-basis: 100%;
+		padding: 1rem $gutter;
+	}
 	
     
     

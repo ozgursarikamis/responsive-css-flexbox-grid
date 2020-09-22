@@ -1,7 +1,11 @@
 /*  ------------- MAIN -------------  */
 main {
 
-    
+    div.container1 div {
+        -ms-flex: 46%; // default value for IE
+        flex-basis: 50%;
+        padding: $gutter;
+    }
     
     
     
