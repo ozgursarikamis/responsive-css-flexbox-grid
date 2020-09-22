@@ -18,7 +18,10 @@ nav {
 main {
 	margin: auto;
     
-    
+    div.parent {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+	}
     
     
     
