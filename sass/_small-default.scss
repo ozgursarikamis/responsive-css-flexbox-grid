@@ -101,6 +101,12 @@ main {
 		-ms-flexbasis: 100%; // default value for IE
 		flex-basis: 100%;
 		padding: 1rem $gutter;
+		align-items: stretch;
+	}
+
+	div.container1 div {
+		background-color: #eee;
+		border: solid 1px #bbb;
 	}
 
 	div.container2 {
