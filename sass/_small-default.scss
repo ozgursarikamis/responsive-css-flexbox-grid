@@ -119,6 +119,8 @@ main {
 	}
 
 	div img { display: block; width: 100%;}
+
+	div.lead { grid-row: 1; grid-column: 1 / span 2;}
     
     
     

@@ -203,6 +203,10 @@ main div img {
   display: block;
   width: 100%;
 }
+main div.lead {
+  grid-row: 1;
+  grid-column: 1/span 2;
+}
 
 /*  ------------- FOOTER -------------  */
 footer {
