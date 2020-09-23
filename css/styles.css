@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;1,700&display=swap");
 /* 
 html5doctor.com Reset Stylesheet
 v1.6.1
@@ -111,6 +112,50 @@ html {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 400;
+  color: #36175E;
+  background-color: #ffffff;
+}
+
+.wrapper {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+}
+
+header {
+  background-color: #553285;
+  color: white;
+  padding: 0.5rem 2%;
+  font-size: 1.5rem;
+}
+
+nav {
+  background-color: white;
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  border-top: 1px solid #666;
+  display: flex;
+}
+nav div {
+  flex-basis: 25%;
+  text-align: center;
+}
+nav div a {
+  display: block;
+  font-size: 1.7rem;
+  padding: 0.5rem 0;
+  color: #aaa;
+}
+nav div.active a {
+  background-color: #553285;
+  color: white;
 }
 
 /*# sourceMappingURL=styles.css.map */
