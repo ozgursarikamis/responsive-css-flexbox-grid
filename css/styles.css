@@ -283,6 +283,12 @@ main.player div.volup {
   main.artist {
     grid-template-columns: 1fr 1fr;
   }
+
+  main.player {
+    grid-template-columns: 50% 50px auto 50px;
+    grid-template-rows: auto;
+    grid-template-areas: "photo startTime time endTime" "photo title title title" "photo prev play next" "photo dn vol up";
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
